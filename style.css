@@ -57,9 +57,9 @@ main{
   text-align: center;
   }
 /*using pseudo-classes to style links*/
-a:link { color: purple; }
-a:visited { color: red; }
-a:hover { color: blue; }
+a:link { color: black; }
+a:visited { color: darkred; }
+a:hover { color: yellow; }
 a:active { color: greenyellow; }
 
 .center-align{
