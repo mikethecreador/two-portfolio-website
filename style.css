@@ -1,0 +1,67 @@
+/*this is the import url for fonts that are not included in css*/
+@import url('https://fonts.googleapis.com/css2?family=Rum+Raisin&family=Sonsie+One&family=Titan+One&display=swap');
+/*this property allows us to include the border and padding in an element total width and height*/
+.border-box{
+  box-sizing: border-box;
+  height: 150px;
+  width: 100%;
+}
+
+.box{
+  margin: 0px 0px 0px 0px;
+  background-color: #140100;
+  color: #2DA6A8;
+  padding: 5px;
+  text-align: center;
+  width: 100%;
+}
+/*using a selectors to style a specific part of the page*/
+body{
+  background-color: #2DA6A8; 
+}
+/*using classes to reuse styles*/
+ .big-text{
+  font-size: 40px;
+  padding-bottom: 0px;
+  font-family: Sonsie One;
+}
+/*using classes to reuse style*/
+ .small-text{
+  font-family: Titan One;
+  font-weight: lighter;
+  font-size: 20px;
+}
+/*adds border for image and adjust image size*/
+img{
+  width: 300px;
+  border: 5px solid #140100;
+  margin-top: 10px;
+  align-content: center;
+}
+/*styles horizontal line*/
+hr{
+  height: 5px ;
+  border: 2px solid black ;
+  border-radious: 10px ;
+  background: linear-gradient(to left, blue, red);
+  margin: 2px;
+  width: 100% ;
+}
+/*aligns text to the left*/
+.text-to-left{
+  text-align: left;
+}
+/*sets the width for all content inside main element*/
+main{
+  width: 100%;
+  text-align: center;
+  }
+/*using pseudo-classes to style links*/
+a:link { color: purple; }
+a:visited { color: red; }
+a:hover { color: blue; }
+a:active { color: greenyellow; }
+
+.center-align{
+  text-align: center;
+}
